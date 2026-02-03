@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Login</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body onload="showCount()">
+<nav>
+ <b>Shop</b>
+ <div>
+ <a href="index.html">Login</a>
+ <a href="register.html">Register</a>
+ <a href="catalog.html">Catalog</a>
+ <a href="cart.html">Cart(<span id="count">0</span>)</a>
+ </div>
+</nav>
+<div class="container form-box">
+ <h2>Login</h2>
+ <input id="luser" placeholder="Username">
+ <input id="lpass" type="password" placeholder="Password">
+ <button onclick="loginUser()">Login</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

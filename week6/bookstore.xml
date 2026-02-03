@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Link to DTD -->
+<!DOCTYPE bookstore SYSTEM "bookstore.dtd">
+<!-- Link to XSD -->
+<bookstore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:nonameSpaceSchemaLocation="bookstore.xsd">
+              <book>
+                <title>Clean Code</title>
+                <author>Robert C. Martin</author>
+                <price>550</price>
+                <year>2008</year>
+             </book>
+            <book>
+                <title>Introduction to Algorithms</title>
+                <author>Thomas H. Cormen</author>
+                <price>950</price>
+                <year>2009</year>
+            </book>
+</bookstore>
